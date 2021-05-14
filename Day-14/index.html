@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Day-14</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/app.min.css">
+</head>
+<body>
+
+<label for="popup-box" class="popup-open">Settings</label>
+
+<input type="checkbox" id="popup-box" data-popup checked>
+
+<div class="popup">
+    <label for="popup-box" class="popup-close-fixed"></label>
+    <div class="settings-popup">
+        <h3>Settings</h3>
+        <label class="cls" for="popup-box">
+            <img src="img/close.svg" alt="">
+            <span>Close</span>
+        </label>
+        <div class="language">
+            <h5>Language</h5>
+            <p>Let us know which language you’re most comfortable using. You can change it back at any time.</p>
+            <label>
+                <select name="" id="">
+                    <option value="">English</option>
+                    <option value="">Türkçe</option>
+                </select>
+            </label>
+            <hr>
+        </div>
+        <ul>
+            <li>
+                <div class="settings-item">
+                    <h5>Autoplay videos</h5>
+                    <p>Choose if you want to autoplay on your browser</p>
+                </div>
+                <label class="check">
+                    <input type="checkbox" checked>
+                    <span class="checkbox"></span>
+                </label>
+            </li>
+            <li>
+                <div class="settings-item">
+                    <h5>Show profile photos</h5>
+                    <p>Choose whether to show or hide profile photos of other members.</p>
+                </div>
+                <label class="check">
+                    <input type="checkbox">
+                    <span class="checkbox"></span>
+                </label>
+            </li>
+        </ul>
+        <span class="action">
+        <a href="" class="active">Save</a>
+        <a href="">Cancel</a>
+    </span>
+    </div>
+</div>
+
+<script src="js/app.min.js"></script>
+</body>
+</html>
