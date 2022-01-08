@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  padding: 1em;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+}
+
+li a {
+  display: flex;
+  padding: 0.5em 3em 0.5em 0.5em;
+  color: #545454;
+}
+
+li:hover {
+  background-color: rebeccapurple;
+}
+
+li:hover a {
+  color: #fff;
+}
+
+main {
+  flex: 1;
+}
+
+iframe {
+  width: 100%;
+  min-height: 100%;
+  border: none;
+}
