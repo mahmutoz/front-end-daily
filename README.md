@@ -4,9 +4,9 @@ This repository contains the codes I wrote after watching the
 [frontendaily](https://www.youtube.com/watch?v=aULb2vuQfWw&list=PLfAfrKyDRWrGze_1T1bUU0qA9RknVKI5J)
 tutorials posted on the [Prototurk](https://www.youtube.com/user/uzmanvideo)
 youtube channel. Thank you [@tayfunerbilen](https://github.com/tayfunerbilen)
-for this useful training.
+for this useful training. **[Live ↗](https://front-end-daily.netlify.app/)**
 
-## Days
+## SCREENSHOTS
 
 ### Day 1 - Search-Filter Components
 
